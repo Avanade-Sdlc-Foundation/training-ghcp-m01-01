@@ -21,11 +21,8 @@ GitHubは、世界で最も先進的な技術のいくつかを構築するた�
 4. プルリクエストをマージする
 
 ### この演習の始め方
-画面上部の**Issues** をクリックしてください。ステップごとの指示に従い、進捗に応じてフィードバックが表示されます。
+画面上部の **Issues** をクリックしてください。ステップごとの指示に従い、進捗に応じてフィードバックが表示されます。
 
-   <a id="start-exercise" href="https://github.com/yutaka-art/skills-introduction-to-github2/issues/1">
-      <img src="https://img.shields.io/badge/🚀_Start_Exercise-008000" height="25pt"/>
-   </a>
 
 > [!IMPORTANT]
 > **Start Exercise** ボタンはリポジトリをコピーした後に有効になります。ページを更新する必要がある場合があります。
