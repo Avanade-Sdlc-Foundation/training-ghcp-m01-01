@@ -1,52 +1,43 @@
-## ステップ2: ファイルをコミットしよう
+<!--
+  <<< Author notes: Step 2 >>>
+  Start this step by acknowledging the previous step.
+  Define terms and link to docs.github.com.
+-->
 
-_ブランチを作成できました！ :tada:_
+## ステップ 2: ファイルをコミットする
 
-ブランチを作成すると、`main` ブランチを変更せずにプロジェクトを編集できます。ブランチができたので、ファイルを作成して最初のコミットをしてみましょう！
+ブランチを作成しました！ :tada:
 
-**コミットとは？**: _[コミット](https://docs.github.com/ja/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)_ とは、プロジェクト内のファイルやフォルダへの変更のまとまりです。コミットはブランチ内に存在します。詳細は「[コミットについて](https://docs.github.com/ja/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)」をご覧ください。
+ブランチを作成することで、`main`ブランチを変更することなくプロジェクトを編集できます。ブランチができたので、今度はファイルを作成して最初のコミットを行いましょう！
 
-### :keyboard: アクティビティ: はじめてのコミット
+**コミットとは？**: _[コミット](https://docs.github.com/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)_は、プロジェクト内のファイルとフォルダに対する一連の変更です。コミットはブランチ内に存在します。詳細については、「[コミットについて](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)」を参照してください。
 
-以下の手順で、GitHub上で変更をコミットする流れを体験できます。コミットは、ファイルの追加・削除・名前変更や内容の編集など、プロジェクトへの変更を記録します。この演習では、新しいブランチに新しいファイルを追加することがコミットとなります。
+### :keyboard: アクティビティ: 最初のコミット
+
+以下の手順では、GitHubで変更をコミットするプロセスをガイドします。コミットは、名前の変更、内容の変更、新しいファイルの作成、およびプロジェクトに加えられたその他の変更を記録します。この演習では、変更をコミットするには、まず新しいブランチに新しいファイルを追加する必要があります。
 
 > [!NOTE]
-> `.md` はMarkdownファイルを作成する拡張子です。Markdownについて詳しくは、ドキュメントの「[基本的な書き方と書式設定の構文](https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)」や「[Markdownでコミュニケーション](https://github.com/skills/communicate-using-markdown)」スキル演習をご覧ください。
+> `.md`は、Markdownファイルを作成するファイル拡張子です。Markdownについて詳しくは、ドキュメントの「[基本的な書き方とフォーマット構文](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)」を参照するか、「[Markdownを使用したコミュニケーション](https://github.com/skills/communicate-using-markdown)」Skillsコースを受講してください。
 
-1. リポジトリのヘッダーメニューにある **< > Code** タブで、新しいブランチ `my-first-branch` を選択していることを確認してください。
+1. リポジトリのヘッダーメニューの**< > Code**タブで、新しいブランチ`my-first-branch`にいることを確認してください。
 
-2. **Add file** ドロップダウンを選択し、**Create new file** をクリックします。
+2. **Add file**ドロップダウンを選択し、**Create new file**をクリックします。
 
-   ![新しいファイル作成オプションのスクリーンショット](https://github.com/user-attachments/assets/cfb062cd-be60-4f12-948c-0946a6fe01da)
+   ![create new file option](/images/create-new-file.png)
 
-3. **Name your file...** フィールドに `PROFILE.md` と入力します。
+3. **Name your file...**フィールドに、`PROFILE.md`と入力します。
 
-4. **Enter file contents here** エリアに、次の内容をコピーして貼り付けてください:
+4. **Enter file contents here**エリアで、以下の内容をファイルにコピーします：
 
    ```
    Welcome to my GitHub profile!
    ```
 
-   ![profile.mdファイル追加のスクリーンショット](https://github.com/user-attachments/assets/e00540be-4334-4d0d-adc2-9893b5477a91)
+   ![profile.md file screenshot](/images/my-profile-file.png)
 
-5. 内容ボックスの右上にある **Commit changes...** をクリックします。ダイアログが表示されます。
+5. コンテンツボックスの右上角にある**Commit changes...**をクリックします。コミットでは、行った変更を説明する短いコミットメッセージを入力できます。このメッセージは、他の人があなたのコミットに何が含まれているかを知るのに役立ちます。GitHubはシンプルなデフォルトメッセージを提供しますが、練習のために少し変更してみましょう。まず、「Commit message」というタイトルの最初のテキスト入力フィールドに`Add PROFILE.md`と入力します。
 
-6. GitHubはシンプルなデフォルトメッセージを用意していますが、練習のため少し変更しましょう。**Commit message** フィールドに `Add PROFILE.md` と入力してください。
-   
-   - **コミットメッセージ**や任意の**詳細説明**は、変更内容を分かりやすく伝えるのに役立ちます。特に複数ファイルを変更する場合に便利です。
+   ![screenshot of adding a new file with a commit message](/images/commit-full-screen.png)
 
-   ![コミットメッセージ入力のスクリーンショット](https://github.com/user-attachments/assets/6ab299ce-8039-4734-a707-d7c3cd7077a0)
-
-6. 今回は他のフィールドは無視して、**Commit changes** をクリックします。
-
-7. ファイルを変更したので、Monaが作業をチェックし始めているはずです。少し待って、コメント欄を確認しましょう。進捗情報や次のレッスンが表示されます。
-
-
-<details>
-<summary>うまくいかない場合 🤷</summary><br/>
-
-フィードバックが表示されない場合は、次の点を確認してください:
-- `my-first-branch` ブランチ上で作業しているか確認してください。
-- `PROFILE.md` ファイルが作成され、ルートフォルダにあるか確認してください。
-
-</details>
+6. このレッスンでは、他のフィールドは無視して**Commit changes**をクリックします。
+7. 約20秒待ってから、このページ（手順を読んでいるページ）を更新してください。[GitHub Actions](https://docs.github.com/en/actions)が自動的に次のステップに更新されます。

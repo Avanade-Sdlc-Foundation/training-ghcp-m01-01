@@ -1,63 +1,45 @@
-## ステップ1: ブランチを作成しよう
+<!--
+  <<< Author notes: Step 1 >>>
+  Choose 3-5 steps for your course.
+  The first step is always the hardest, so pick something easy!
+  Link to docs.github.com for further explanations.
+  Encourage users to open new tabs for steps!
+-->
 
-_「GitHub入門」へようこそ！ :wave:_
+## ステップ 1: ブランチを作成する
 
-**GitHubとは？**: GitHubはバージョン管理のために_[Git](https://docs.github.com/ja/get-started/quickstart/github-glossary#git)_を利用するコラボレーションプラットフォームです。
-GitHubは[オープンソース](https://docs.github.com/ja/get-started/quickstart/github-glossary#open-source)ソフトウェアを共有・貢献する人気の場所です。
+「GitHubの紹介」へようこそ！ :wave:
 
-:tv: [動画: GitHubとは？](https://www.youtube.com/watch?v=pBy1zgt0XPc)
+**GitHubとは？**: GitHubは、バージョン管理に_[Git](https://docs.github.com/get-started/quickstart/github-glossary#git)_を使用するコラボレーションプラットフォームです。GitHubは[オープンソース](https://docs.github.com/get-started/quickstart/github-glossary#open-source)ソフトウェアを共有し、貢献するための人気の場所です。
+<br>:tv: [動画: GitHubとは？](https://www.youtube.com/watch?v=pBy1zgt0XPc)
 
-**リポジトリとは？**: _[リポジトリ](https://docs.github.com/ja/get-started/quickstart/github-glossary#repository)_は、ファイルやフォルダを含むプロジェクトです。
-リポジトリはファイルやフォルダのバージョンを管理します。詳細は
-「[リポジトリについて](https://docs.github.com/ja/repositories/creating-and-managing-repositories/about-repositories)」（GitHub Docs）をご覧ください。
+**リポジトリとは？**: _[リポジトリ](https://docs.github.com/get-started/quickstart/github-glossary#repository)_は、ファイルとフォルダを含むプロジェクトです。リポジトリはファイルとフォルダのバージョンを追跡します。詳細については、GitHub Docsの「[リポジトリについて](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)」を参照してください。
 
-**ブランチとは？**: _[ブランチ](https://docs.github.com/ja/get-started/quickstart/github-glossary#branch)_は、リポジトリの並行バージョンです。
-デフォルトでは、リポジトリには `main` という名前のブランチが1つあり、これが決定版のブランチと見なされます。
-追加のブランチを作成すると、リポジトリの `main` ブランチをコピーして、メインプロジェクトに影響を与えることなく安全に変更を加えることができます。
-多くの人は、特定の機能に取り組むためにブランチを使い、他の部分に影響を与えないようにしています。
+**ブランチとは？**: _[ブランチ](https://docs.github.com/en/get-started/quickstart/github-glossary#branch)_は、リポジトリの並行バージョンです。デフォルトでは、リポジトリには`main`という名前のブランチが1つあり、これが決定的なブランチと見なされます。追加のブランチを作成することで、リポジトリの`main`ブランチをコピーし、メインプロジェクトを中断することなく安全に変更を加えることができます。多くの人がブランチを使用して、プロジェクトの他の部分に影響を与えることなく特定の機能に取り組んでいます。
 
-ブランチを使うことで、作業を `main` ブランチから分離できます。
-言い換えれば、あなたが貢献している間、誰もが自分の作業を安全に保つことができます。
-詳細は「[ブランチについて](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)」をご覧ください。
+ブランチを使用すると、作業を`main`ブランチから分離できます。つまり、あなたが貢献している間、みんなの作業は安全です。詳細については、「[ブランチについて](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)」を参照してください。
 
-**プロフィールREADMEとは？**: _[プロフィールREADME](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)_
-は、GitHubプロフィールの「自己紹介」セクションであり、GitHub.com上のコミュニティと自分自身についての情報を共有するためのものです。
-GitHubはプロフィールページの最上部にプロフィールREADMEを表示します。詳細は「[プロフィールREADMEの管理](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)」をご覧ください。
+**プロフィールREADMEとは？**: _[プロフィールREADME](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)_は、基本的にGitHubプロフィールの「自己紹介」セクションで、GitHub.comのコミュニティと自分自身について情報を共有できる場所です。GitHubはプロフィールページの上部にプロフィールREADMEを表示します。詳細については、「[プロフィールREADMEの管理](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)」を参照してください。
 
-![screenshot showing an example profile readme](https://github.com/user-attachments/assets/9425d1aa-04ba-459b-b89d-31fbae87c743)
+![profile-readme-example](/images/profile-readme-example.png)
 
-### :keyboard: アクティビティ: あなたの最初のブランチ
+### :keyboard: アクティビティ: 最初のブランチ
 
-1. 新しいブラウザタブを開き、作成したリポジトリ（この演習のコピー）に移動します。
-   その後、2番目のタブで手順に従いながら、このタブの指示を読みます。
+1. 新しいブラウザタブを開き、新しく作成したリポジトリに移動します。このタブで手順を読みながら、2つめのタブで作業を行ってください。
+2. リポジトリのヘッダーメニューの**< > Code**タブに移動します。
 
-2. リポジトリのヘッダーメニューで、**< > コード**タブに移動します。
-
-   ![screenshot highlighting the code tab](https://github.com/user-attachments/assets/8e1283ea-9cea-4a7e-8359-a7617734ff9a)
+   ![code-tab](/images/code-tab.png)
 
 3. **main**ブランチのドロップダウンをクリックします。
 
-   <img width="300" alt="screenshot highlighting the branch selection" src="https://github.com/user-attachments/assets/1a07c958-cebf-4ca5-805e-22c1725635ba">
+   ![main-branch-dropdown](/images/main-branch-dropdown.png)
 
-4. テキストボックス**ブランチを見つけるか作成...**に `my-first-branch` と入力します。
-   
-   > **注:** これは次のステップに進むために確認されます。 :wink: 
+4. フィールドにブランチ名として`my-first-branch`と入力します。この場合、コースワークフローをトリガーするために、名前は`my-first-branch`である必要があります。
+5. **Create branch: my-first-branch**をクリックしてブランチを作成します。
 
-5. テキスト**mainからブランチを作成: `my-first-branch`**をクリックして、ブランチを作成します。
-   
-   <img width="300" alt="screenshot highlighting the create branch prompt" src="https://github.com/user-attachments/assets/99d19ff5-4482-4210-ae45-84e7b7c47632">
+   ![create-branch-button](/images/create-branch-button.png)
 
-   - ブランチは自動的に作成したブランチに切り替わります。
-   - **main**ブランチのドロップダウンメニューに新しいブランチ名が表示されます。
+   ブランチは自動的に作成したばかりのものに切り替わります。
+   **main**ブランチのドロップダウンバーは新しいブランチを反映し、新しいブランチ名を表示します。
 
-6. ブランチがGitHubにプッシュされたので、モナはすでにあなたの作業をチェックするために忙しいはずです。
-   彼女の進捗情報と次のレッスンがコメントで表示されるのを待ちましょう。
-
-
-<details>
-<summary>うまくいかない？ 🤷</summary><br/>
-
-フィードバックがない場合は、以下の点を確認してください。
-- 正確に `my-first-branch` という名前のブランチを作成したことを確認してください。接頭辞や接尾辞は不要です。
-
-</details>
+6. 約20秒待ってから、このページ（手順を読んでいるページ）を更新してください。[GitHub Actions](https://docs.github.com/en/actions)が自動的に次のステップに更新されます。

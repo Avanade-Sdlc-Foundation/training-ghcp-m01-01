@@ -1,33 +1,31 @@
-## ステップ4: プルリクエストをマージしよう
+<!--
+  <<< Author notes: Step 4 >>>
+  Just a historic note: The previous version of this step required responding
+  to a pull request review before merging. The previous version also handled
+  if users accidentally closed without merging.
+-->
 
-_素晴らしい！ :sunglasses:_
+## ステップ 4: プルリクエストをマージする
 
-プルリクエストを作成できました。次はそれをマージしましょう！
+よくできました！ :sunglasses:_
 
-**マージとは？**: _[マージ](https://docs.github.com/ja/get-started/quickstart/github-glossary#merge)_ とは、プルリクエストやブランチの変更を `main` ブランチに取り込むことです。詳細は「[プルリクエストのマージ](https://docs.github.com/ja/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request)」をご覧ください。
+プルリクエストの作成に成功しました。これでプルリクエストをマージできます。
 
-![緑色のマージプルリクエストボタンのスクリーンショット](https://github.com/user-attachments/assets/ce2f04cb-8a71-411f-8dc8-827a2bc23a30)
+**マージとは？**: _[マージ](https://docs.github.com/en/get-started/quickstart/github-glossary#merge)_は、プルリクエストとブランチの変更を`main`ブランチに追加します。マージの詳細については、「[プルリクエストのマージ](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request)」を参照してください。
 
-### :keyboard: アクティビティ: プルリクエストをマージしよう
+前のステップで述べたように、手順を次のステップに自動的に進めるGitHub Actionsが実行されている証拠を見たかもしれません。プルリクエストをマージする前に、それが完了するまで待つ必要があります。マージプルリクエストボタンが緑色になったら準備完了です。
 
-1. **Merge pull request** をクリックします。
+![screenshot of green merge pull request button](/images/Green-merge-pull-request.png)
 
-   > **注意:** 新しいプルリクエストでワークフローが実行中の場合、マージボタンが無効になることがあります。完了するまで少し待つと、ボタンが有効になります。
+### :keyboard: アクティビティ: プルリクエストをマージする
 
-2. **Confirm merge** をクリックします。
+1. **Merge pull request**をクリックします。
+2. **Confirm merge**をクリックします。
+3. ブランチがマージされたら、もう必要ありません。このブランチを削除するには、**Delete branch**をクリックします。
 
-   > **ヒント:** このダイアログがファイル追加時と似ていることに気づきましたか？マージもコミットの一種です！
+   ![screenshot showing delete branch button](/images/delete-branch.png)
 
-3. ブランチがマージされたら、もう必要ありません。**Delete branch** をクリックしてブランチを削除しましょう。
+4. 約20秒待ってから、このページ（手順を読んでいるページ）を更新してください。[GitHub Actions](https://docs.github.com/en/actions)が自動的に次のステップに更新されます。
 
-   ![ブランチ削除ボタンのスクリーンショット](https://github.com/user-attachments/assets/0fda948e-14e0-4643-aa53-d9f9f364cddd)
-
-4. 作業がマージされたら、Monaが確認し最終レビューの内容を共有してくれます。お疲れさまでした！ 🎉
-
-<details>
-<summary>うまくいかない場合 🤷</summary><br/>
-
-フィードバックが表示されない場合は、次の点を確認してください:
-- 前のレッスンを完了しているか確認してください。完了していない場合、マージボタンはグレーのままです。
-
-</details>
+> [!NOTE]
+> 次に学べることを確認するには、**Finish**ステップをチェックしてください！
