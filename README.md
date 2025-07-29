@@ -21,24 +21,7 @@ GitHubは、世界で最も先進的な技術のいくつかを構築するた�
 4. プルリクエストをマージする
 
 ### この演習の始め方
-
-1. **Copy Exercise** を右クリックし、新しいタブでリンクを開いてください。
-
-   <a id="copy-exercise">
-      <img src="https://img.shields.io/badge/📠_Copy_Exercise-AAA" height="25pt"/>
-   </a>
-
-2. 新しいタブでは、ほとんどの入力欄が自動で入力されます。
-   - オーナーには、ご自身のアカウントまたは組織を選択してください。
-   - プライベートリポジトリは[Actionsの利用分が課金](https://docs.github.chttps://github.com/yutaka-art/skills-introduction-to-github2/billing/managing-billing-for-github-actions/about-billing-for-github-actions)されるため、パブリックリポジトリを推奨します。
-   - フォームの一番下にある **Create repository** ボタンをクリックしてください。
-
-3. 新しいリポジトリが作成されたら、演習の準備とボタンの更新のために約20秒待ちます。その後はご自身の演習用リポジトリで作業を続けます。
-   - **Copy Exercise** ボタンは非アクティブ（グレー）になります。
-   - **Start Exercise** ボタンがアクティブ（緑）になります。
-   - ページを更新する必要がある場合があります。
-
-4. **Start Exercise** をクリックしてください。ステップごとの指示に従い、進捗に応じてフィードバックが表示されます。
+画面上部の**Issues** をクリックしてください。ステップごとの指示に従い、進捗に応じてフィードバックが表示されます。
 
    <a id="start-exercise" href="https://github.com/yutaka-art/skills-introduction-to-github2/issues/1">
       <img src="https://img.shields.io/badge/🚀_Start_Exercise-008000" height="25pt"/>
@@ -49,4 +32,4 @@ GitHubは、世界で最も先進的な技術のいくつかを構築するた�
 
 ---
 
-&copy; 2025 GitHub &bull; [行動規範](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MITライセンス](https://gh.io/mit)
+&copy; 2025 Avanade &bull; [MITライセンス](https://gh.io/mit)
