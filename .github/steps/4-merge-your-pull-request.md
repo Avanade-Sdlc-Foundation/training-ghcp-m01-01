@@ -19,13 +19,13 @@
 
 ### :keyboard: アクティビティ: プルリクエストをマージする
 
-1. **Merge pull request**をクリックします。
-2. **Confirm merge**をクリックします。
-3. ブランチがマージされたら、もう必要ありません。このブランチを削除するには、**Delete branch**をクリックします。
+1. **Merge pull request** をクリックします。
+2. **Confirm merge** をクリックします。
+3. ブランチがマージされたら、もう必要ありません。このブランチを削除するには、 **Delete branch** をクリックします。
 
    ![screenshot showing delete branch button](/images/delete-branch.png)
 
 4. 約20秒待ってから、このページ（手順を読んでいるページ）を更新してください。[GitHub Actions](https://docs.github.com/en/actions)が自動的に次のステップに更新されます。
 
 > [!NOTE]
-> 次に学べることを確認するには、**Finish**ステップをチェックしてください！
+> 次に学べることを確認するには、**Finish** ステップをチェックしてください！

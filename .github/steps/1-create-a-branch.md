@@ -26,20 +26,20 @@
 ### :keyboard: アクティビティ: 最初のブランチ
 
 1. 新しいブラウザタブを開き、新しく作成したリポジトリに移動します。このタブで手順を読みながら、2つめのタブで作業を行ってください。
-2. リポジトリのヘッダーメニューの**< > Code**タブに移動します。
+2. リポジトリのヘッダーメニューの **< > Code** タブに移動します。
 
    ![code-tab](/images/code-tab.png)
 
-3. **main**ブランチのドロップダウンをクリックします。
+3. **main** ブランチのドロップダウンをクリックします。
 
    ![main-branch-dropdown](/images/main-branch-dropdown.png)
 
 4. フィールドにブランチ名として`my-first-branch`と入力します。この場合、コースワークフローをトリガーするために、名前は`my-first-branch`である必要があります。
-5. **Create branch: my-first-branch**をクリックしてブランチを作成します。
+5. **Create branch: my-first-branch** をクリックしてブランチを作成します。
 
    ![create-branch-button](/images/create-branch-button.png)
 
    ブランチは自動的に作成したばかりのものに切り替わります。
-   **main**ブランチのドロップダウンバーは新しいブランチを反映し、新しいブランチ名を表示します。
+   **main** ブランチのドロップダウンバーは新しいブランチを反映し、新しいブランチ名を表示します。
 
 6. 約20秒待ってから、このページ（手順を読んでいるページ）を更新してください。[GitHub Actions](https://docs.github.com/en/actions)が自動的に次のステップに更新されます。

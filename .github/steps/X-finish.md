@@ -24,11 +24,7 @@
 2. ルートに`README.md`という名前のファイルを作成します。「ルート」とは、リポジトリ内のどのフォルダの中でもないことを意味します。
 3. `README.md`ファイルの内容を編集します。
 4. ファイル用に新しいブランチを作成した場合は、そのブランチでプルリクエストを開いてマージします。
-5. 最後に、このコースについてのご感想を[ディスカッションボード](https://github.com/orgs/skills/discussions/categories/introduction-to-github)で聞かせてください。
 
 詳細を学んだり参加したりするには、以下のリソースをチェックしてください：
 
-- 学生の方ですか？[Student Developer Pack](https://education.github.com/pack)をチェックしてください。
-- [別のGitHub Skillsコースを受講する](https://github.com/skills)。
 - [GitHub入門ドキュメントを読む](https://docs.github.com/en/get-started)。
-- 貢献するプロジェクトを見つけるには、[GitHub Explore](https://github.com/explore)をチェックしてください。
